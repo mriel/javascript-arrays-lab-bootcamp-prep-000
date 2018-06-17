@@ -34,10 +34,10 @@ function prependKitten(name) {
   var newKittens = [name, ...kittens];
 }
 
-function removeLastKitten(name) {
+function removeLastKitten() {
   var newKittens = kittens.slice(-1);
 }
 
-function removeFirstKitten(name) {
-  var newKittens =  kittens.slice(0);
+function removeFirstKitten() {
+  var newKittens =  kittens.slice(1);
 }
