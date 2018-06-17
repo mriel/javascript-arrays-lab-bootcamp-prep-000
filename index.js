@@ -5,3 +5,9 @@ var kittens = [
   'Otis',
   'Garfield'
 ]
+
+function destructivelyAppendKitten(name) {
+  kittens.pop(name);
+  return kittens;
+}
+
