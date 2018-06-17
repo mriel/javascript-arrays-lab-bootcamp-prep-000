@@ -27,5 +27,5 @@ function destructivelyRemoveFirstKitten(name) {
 }
 
 function appendKitten(name) {
-
+  car newKittens = [...kittens, name];
 }
