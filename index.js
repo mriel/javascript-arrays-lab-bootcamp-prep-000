@@ -27,5 +27,17 @@ function destructivelyRemoveFirstKitten(name) {
 }
 
 function appendKitten(name) {
-  car newKittens = [...kittens, name];
+  var newKittens = [...kittens, name];
+}
+
+function prependKitten(name) {
+  var newKittens = [name, ...kittens];
+}
+
+function removeLastKitten(name) {
+  var newKittens = kittens.slice(-1);
+}
+
+function removeFirstKitten(name) {
+  var newKittens =  kittens.slice(0);
 }
